@@ -7,7 +7,7 @@ This PowerShell script helps you clean up files from the SharePoint "Preservatio
 > This script will permanently delete files from your SharePoint Preservation Hold Library if run in deletion mode. Use at your own risk. The author takes NO responsibility for any data loss or consequences!
 
 ## Prerequisites
-- Windows PowerShell (pwsh)
+- Windows PowerShell 7.4.6 or later
 - [PnP PowerShell Module](https://pnp.github.io/powershell/)
     - You must install it before running this script. See [PnP PowerShell Installation Guide](https://pnp.github.io/powershell/index.html)
     - Install via: `Install-Module -Name PnP.PowerShell -Scope CurrentUser`
