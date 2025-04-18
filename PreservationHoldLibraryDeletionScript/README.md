@@ -28,7 +28,7 @@ This PowerShell script helps you clean up files from the SharePoint "Preservatio
 
 2. **Run the script:**
    ```powershell
-   pwsh -File .\deletion.ps1
+   .\deletion.ps1
    ```
 
 3. **Follow the prompts:**
