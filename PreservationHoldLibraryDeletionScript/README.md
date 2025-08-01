@@ -6,6 +6,9 @@ This PowerShell script helps you clean up files from the SharePoint "Preservatio
 > **Warning:**
 > This script will permanently delete files from your SharePoint Preservation Hold Library if run in deletion mode. Use at your own risk. The author takes NO responsibility for any data loss or consequences!
 
+## Use Cases
+- If you're anything like me you probably set Retention to everything back in 2019 and just left it as is, as a result the Preservation Hold Library has ballooned over 500GB and will soon bring you over the SharePoint storage size for the organization. This script can help clean that folder up. 
+
 ## Prerequisites
 - Windows PowerShell 7.4.6 or later
 - [PnP PowerShell Module](https://pnp.github.io/powershell/)
@@ -19,6 +22,7 @@ This PowerShell script helps you clean up files from the SharePoint "Preservatio
     - Retention Policies (including Microsoft Purview retention labels or policies)
     - eDiscovery cases
     - Locked site status (read-only, no access, or other locks)
+- Note that once DLP/retention policies are disabled it may take time for Microsoft to apply the changes, especially if the SharePoint site is over 10GB
 - **All such restrictions must be fully removed or disabled before running this script, otherwise deletions will fail.**
     - For more information on site lock status, see: [Manage locked sites in SharePoint](https://learn.microsoft.com/en-us/sharepoint/manage-lock-status)
     - For more information on retention policies, see: [Overview of retention policies](https://learn.microsoft.com/en-us/microsoft-365/compliance/retention-policies)
