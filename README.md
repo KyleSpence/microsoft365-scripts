@@ -1,6 +1,6 @@
 # Microsoft SysAdmin Scripts
 
-A curated collection of scripts for Microsoft system administration tasks. These tools are designed to simplify, automate, and enhance daily IT operations across Windows Server, Active Directory, Microsoft 365, Exchange, and related infrastructure.
+A collection of scripts for Microsoft system administration tasks. These tools are designed to simplify, automate, and enhance daily IT operations across Windows Server, Active Directory, Microsoft 365, Exchange, and related infrastructure.
 
 ---
 
