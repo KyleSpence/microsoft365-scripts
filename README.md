@@ -6,6 +6,6 @@ A collection of scripts for Microsoft system administration tasks. These tools a
 
 ## 🔧 Scripts Included
 
-| Script Name                          | Description                                                                 |
+| Script Folder                          | Description                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------|
-| `PreservationHoldLibraryDeletionScript.ps1`| Identifies and removes content from SharePoint Online's Preservation Hold Library                 |
+| `PreservationHoldLibraryDeletionScript`| Identifies and removes content from SharePoint Online's Preservation Hold Library                 |
